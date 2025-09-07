@@ -2,6 +2,10 @@
 
 A proof-of-concept analytics dashboard for RewardOps with real-time data processing capabilities, natural language query interface, and dynamic visualization generation.
 
+## Demo
+
+https://github.com/user-attachments/assets/28f16154-7314-420a-980a-e98574dedab8
+
 ## 🏗️ Architecture Overview
 
 ### System Components
