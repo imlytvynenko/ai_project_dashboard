@@ -1,0 +1,266 @@
+# RewardOps Analytics POC - Git Ignore File
+# =============================================
+
+# Python
+# -------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+# --------------------
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+test_env/
+
+# FastAPI / Python Environment
+# -----------------------------
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+.python-version
+
+# Node.js / React
+# ---------------
+frontend/node_modules/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+# ------------
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+# -----------------------------------------------
+coverage/
+*.lcov
+
+# nyc test coverage
+# -----------------
+.nyc_output
+
+# Build outputs
+# -------------
+frontend/build/
+frontend/dist/
+build/
+dist/
+
+# React / TypeScript
+# ------------------
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor files
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
+# --------
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+# ----
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+backend/server.log
+
+# OS generated files
+# ------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+# ---------------
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Cache directories
+# -----------------
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist
+
+# ESLint cache
+# ------------
+.eslintcache
+
+# Optional npm cache directory
+# ----------------------------
+.npm
+
+# Optional REPL history
+# ---------------------
+.node_repl_history
+
+# Output of 'npm pack'
+# --------------------
+*.tgz
+
+# Yarn Integrity file
+# -------------------
+.yarn-integrity
+
+# dotenv environment variables file
+# ---------------------------------
+.env
+.env.test
+.env.production
+
+# Stores VSCode versions used for testing VSCode extensions
+# ---------------------------------------------------------
+.vscode-test
+
+# Python cache and compiled files
+# --------------------------------
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook
+# ----------------
+.ipynb_checkpoints
+
+# pytest
+# ------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+# ----
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+# -----------------
+.pyre/
+
+# Sensitive configuration files
+# ------------------------------
+config/local.py
+config/production.py
+secrets.json
+credentials.json
+
+# Backup files
+# ------------
+*.backup
+*.bak
+*~
+*.tsx.backup
+*.css.backup
+
+# Project specific
+# ----------------
+# Don't commit database connection strings or API keys
+database.ini
+api_keys.json
+
+# Development tools
+# -----------------
+.tool-versions
+toolbox
+
+# Testing
+# -------
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentation builds
+# --------------------
+docs/_build/
+
+# macOS
+# -----
+.AppleDouble
+.LSOverride
+
+# Windows
+# -------
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+# -----------------
+*.lnk
+
+# Linux
+# -----
+*~
+
+# Project-specific exclusions
+# ----------------------------
+# Keep some .vscode settings but ignore others
+.vscode/*
+!.vscode/mcp.json
+
+# Temporary development files
+temp_*
+debug_*
